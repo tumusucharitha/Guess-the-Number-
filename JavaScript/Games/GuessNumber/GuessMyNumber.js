@@ -31,7 +31,7 @@ document.querySelector('.check').addEventListener(
                 document.querySelector('.score').textContent = score;
             }else{
                 document.querySelector('.message').textContent =
-                '💣You have lost the game..!';
+                '💣You have lost the game.!';
             }
         }
         
