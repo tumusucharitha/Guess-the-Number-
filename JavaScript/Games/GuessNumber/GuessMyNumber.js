@@ -26,12 +26,12 @@ document.querySelector('.check').addEventListener(
             }
         }else if(guess !== secretNumber){
             if(score>1){       
-                displayMessage(guess > secretNumber ? '📈too high' : '📉too low');
+                displayMessage(guess > secretNumber ? '📈too high.' : '📉too low.');
                 score--;
                 document.querySelector('.score').textContent = score;
             }else{
                 document.querySelector('.message').textContent =
-                '💣You have lost the game..';
+                '💣You have lost the game..!';
             }
         }
         
